@@ -14,8 +14,8 @@ object Main {
     val grouped: Iterable[(String, Vector[AcmeCustomerAttributes])] = EMR.group(
       EMR.lines.flatMap(str =>
         EMR.decodeKeyed[String, AcmeCustomerAttributes](
-          v => Try(v.split(EMR.keyDelimiter).head).toOption,
-          k => Try(k.split(EMR.keyDelimiter).tail.reduce((a, b) => a + EMR.keyDelimiter + b))
+          k => Try(k.split(EMR.keyDelimiter).head).toOption,
+          v => Try(v.split(EMR.keyDelimiter).tail.reduce((a, b) => a + EMR.keyDelimiter + b))
             .toOption.flatMap(s => EMR.decodeDelimited(EMR.keyDelimiter, s)),
           str,
           str
