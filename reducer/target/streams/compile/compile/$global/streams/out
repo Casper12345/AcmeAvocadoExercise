@@ -1,4 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/caspernielsen/Downloads/emr-scala/reducer/src/main/scala/Reducer.scala:19:55: could not find implicit value for evidence parameter of type acme.types.Imports.FromRecord[A][0m
-[0m[[0m[31merror[0m] [0m[0m            .toOption.flatMap(s => EMR.decodeDelimited(EMR.keyDelimiter, s)),[0m
-[0m[[0m[31merror[0m] [0m[0m                                                      ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m

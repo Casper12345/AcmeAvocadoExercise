@@ -1,7 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/caspernielsen/Downloads/emr-scala/mapper/src/main/scala/Mapper.scala:14:35: missing parameter type[0m
-[0m[[0m[31merror[0m] [0m[0m        .map(a => EMR.encodeKeyed(_ => a.segmentId.toString, b => EMR.encodeDelimited(EMR.keyDelimiter, b), a))[0m
-[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/caspernielsen/Downloads/emr-scala/mapper/src/main/scala/Mapper.scala:14:62: missing parameter type[0m
-[0m[[0m[31merror[0m] [0m[0m        .map(a => EMR.encodeKeyed(_ => a.segmentId.toString, b => EMR.encodeDelimited(EMR.keyDelimiter, b), a))[0m
-[0m[[0m[31merror[0m] [0m[0m                                                             ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
